@@ -24,7 +24,7 @@ jobs:
           port: 21
           local-dir: ./
           server-dir: phpmailer-test.freedev.app/htdocs/
-          dry-run: true
+          dry-run: false
           dangerous-clean-slate: false
           exclude: |
             **/.git*
